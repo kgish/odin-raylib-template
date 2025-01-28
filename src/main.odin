@@ -1,7 +1,15 @@
-package main
+package game
 
-import "core:fmt"
+import rl "vendor:raylib"
 
 main :: proc() {
-    fmt.println("Hi, mom!");
+    rl.InitWindow(1280, 720, "My First Game")
+
+    for !rl.WindowShouldClose() {
+        rl.BeginDrawing()
+        rl.ClearBackground(rl.BLUE)
+        rl.EndDrawing()
+    }
+
+    rl.CloseWindow()
 }

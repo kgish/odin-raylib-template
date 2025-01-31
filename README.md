@@ -59,3 +59,4 @@ Or simply run the created executable directly.
 * [Raylib cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html)
 * [CLang](https://clang.llvm.org/)
 * [Odin + Raylib tutorials](https://www.youtube.com/playlist?list=PLxE7SoPYTef1jYHJ6NxNgocVjQKkq7eEa)
+* [Odin Support for IntelliJ](https://github.com/obiwan87/odin-intellij?tab=readme-ov-file)
